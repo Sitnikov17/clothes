@@ -1,0 +1,123 @@
+.sectionBasket h1:first-child {
+  margin-left: 40px;
+}
+
+.basket {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.basket p {
+  padding: 0;
+}
+
+.basket button {
+  background: rgba(0, 0, 0, 0.449);
+  border: none;
+  padding: 20px 80px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.basket button:hover {
+  background: rgba(0, 0, 0, 0.852);
+  cursor: pointer;
+}
+
+.basket ~ h1 {
+  margin: 0 0 0 100px;
+}
+
+.basketActive,
+.basketActiveSum {
+  margin: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.416);
+}
+.basketContainer {
+  padding: 30px 20px;
+  display: flex;
+}
+
+.basketActive img {
+  flex-grow: 1;
+  width: 15%;
+}
+
+.basketRight {
+  padding: 0 20px;
+  flex-grow: 7;
+}
+
+.basketRight div {
+  margin-bottom: 20px;
+}
+
+.basketTop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.basketBottom {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.basketBottom p {
+  margin: 0 23px;
+}
+
+.basketActiveSum h2,
+.basketActiveSum p,
+button {
+  text-align: left;
+  margin: 20px 50px;
+}
+
+.basketActiveSum button {
+  font-size: 15px;
+  border: none;
+  background: red;
+  color: white;
+  padding: 20px 90px;
+  position: relative;
+  left: 45%;
+  transform: translate(-55%, 0);
+}
+
+.basketActiveSum p {
+  padding-bottom: 30px;
+}
+
+.basketActiveSum button:hover {
+  background: rgb(189, 22, 22);
+}
+
+.DeleteForeverIcon {
+  color: red;
+}
+
+.basketSum {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 850px) {
+  .basketActive,
+  .basketActiveSum {
+    margin: 0;
+  }
+  .basketActive img {
+    min-width: 200px;
+  }
+  .sectionBasket h1:first-child {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,27 @@
+.image {
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vh;
+  background-position: top center;
+}
+
+.cards {
+  display: flex;
+}
+
+.image p {
+  position: absolute;
+  color: white;
+  font-size: 5vh;
+  left: 30%;
+  top: 45%;
+  text-shadow:
+    -1px -1px 0 #000,
+    0 -1px 0 #000,
+    1px -1px 0 #000,
+    1px 0 0 #000,
+    1px 1px 0 #000,
+    0 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px 0 0 #000;
+}

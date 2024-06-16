@@ -1,0 +1,56 @@
+.listItemText:hover {
+  color: red;
+}
+
+.listItemText {
+  padding-left: 8px;
+}
+
+.buttonBlock {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 2.5vh;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.closeIcon {
+  cursor: pointer;
+  margin-right: 20px;
+  margin-bottom: 0.5vh;
+}
+
+.divider {
+  display: flex;
+}
+
+.dividerLeft {
+  flex-grow: 1;
+}
+.dividerLeft a {
+  margin: 5px 15px;
+}
+
+.dividerRight {
+  flex-grow: 4;
+  display: flex;
+}
+
+.dividerRight img {
+  margin: 2.5vh auto;
+  max-width: 300px;
+}
+
+@media (max-width: 550px) {
+  .dividerRight img {
+    width: 50%;
+    margin: 0;
+  }
+  .appBarsDecrease {
+    display: none;
+  }
+  .clothes a {
+    left: 0;
+    transform: translate(250%, 0%);
+  }
+}

@@ -1,0 +1,93 @@
+.productCardContainer {
+  margin: 20px;
+  margin-top: 80px;
+}
+
+.productCardMain {
+  display: flex;
+  margin-top: 10px;
+}
+
+.productCardLeft {
+  margin-right: 10px;
+}
+
+.productCardLeft img {
+  max-width: 100%;
+}
+
+.productCardRight {
+  flex-grow: 4;
+  margin: 10px;
+}
+
+.productCardRight > * {
+  padding-left: 10px;
+}
+.productPrice {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.15);
+}
+.productPrice h1 {
+  padding: 5px 0;
+}
+
+.productColor {
+  display: flex;
+  align-items: center;
+}
+
+.colors {
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.productSize {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.sizes {
+  padding: 5px 20px;
+  border: 1px solid rgb(148, 146, 146);
+  margin: 5px;
+}
+.sizes:hover {
+  border: 1px solid black;
+}
+
+.sizesActive {
+  border: 1px solid black;
+  background: rgb(183, 182, 182);
+}
+
+.productButton {
+  padding: 15px 50px;
+  background: red;
+  color: white;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.productButton:hover {
+  background: rgb(189, 22, 22);
+  transition: 0.3s;
+}
+
+.colorsActive {
+  background: white;
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgb(195, 0, 255);
+}
+
+@media (max-width: 700px) {
+  .productCardMain {
+    display: block;
+  }
+}

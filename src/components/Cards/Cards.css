@@ -1,0 +1,24 @@
+a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px 40px 80px;
+  margin-top: 50px;
+}
+
+.card {
+  max-width: 180px;
+
+  border: 1px solid black;
+}
+@media (max-width: 1024px) {
+  .cards {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}

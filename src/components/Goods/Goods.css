@@ -1,0 +1,36 @@
+.containerCard {
+  display: flex;
+  padding: 40px 80px;
+  transition: 1s;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.containerCard a {
+  text-align: left;
+  margin-right: 10px;
+}
+
+/* p:nth-child(3) {
+  color: rgb(151, 151, 151);
+} */
+
+.carousel {
+  position: relative;
+}
+
+.handlePrevious {
+  position: absolute;
+  left: 1%;
+  top: 35%;
+  color: white;
+}
+
+.handleNext {
+  position: absolute;
+  right: 1%;
+  top: 35%;
+  color: white;
+}
