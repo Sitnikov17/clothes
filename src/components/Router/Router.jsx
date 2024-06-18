@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import Main from "../../Main";
 import ProductCard from "../ProductCard/ProductCard";
 import Category from "../Category/Category";
@@ -24,7 +24,7 @@ export default function Router() {
 
   return (
     <Context.Provider value={{ gender, toggle }}>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Main />} />
@@ -53,7 +53,7 @@ export default function Router() {
             />
           </Route>
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </Context.Provider>
   );
 }
