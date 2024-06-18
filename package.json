@@ -1,7 +1,7 @@
 {
   "name": "ww",
   "version": "0.1.0",
-  "homepage": "https://Sitnikov17.github.io/clothess",
+  "homepage": "https://Sitnikov17.github.io/",
   "private": false,
   "dependencies": {
     "@emotion/react": "^11.11.4",
