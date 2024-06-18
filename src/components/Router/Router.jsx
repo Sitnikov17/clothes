@@ -24,7 +24,7 @@ export default function Router() {
 
   return (
     <Context.Provider value={{ gender, toggle }}>
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Main />} />
@@ -53,7 +53,7 @@ export default function Router() {
             />
           </Route>
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </Context.Provider>
   );
 }
