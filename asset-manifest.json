@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/clothes/static/css/main.2ecc8378.css",
+    "main.js": "/clothes/static/js/main.22869d6f.js",
+    "static/media/banner22.jpg": "/clothes/static/media/banner22.8bc44e3e1b044eb7a667.jpg",
+    "static/media/banner2.jpg": "/clothes/static/media/banner2.6306f8a81726f026fe62.jpg",
+    "static/media/banner1.jpg": "/clothes/static/media/banner1.b6662cf75efecce5bb06.jpg",
+    "static/media/banner11.jpg": "/clothes/static/media/banner11.ddc308c1fdb046ecc971.jpg",
+    "static/media/banner33.jpg": "/clothes/static/media/banner33.284677c5e030943a6ff6.jpg",
+    "static/media/22.jpg": "/clothes/static/media/22.d41c9d1a397942e54a65.jpg",
+    "static/media/banner4.jpg": "/clothes/static/media/banner4.a79d9cfbe2f003268375.jpg",
+    "static/media/men.jpg": "/clothes/static/media/men.3ba414a0c7dec628ca9c.jpg",
+    "static/media/women.jpg": "/clothes/static/media/women.4b4e4b3ac01a49a6334d.jpg",
+    "static/media/banner5.jpg": "/clothes/static/media/banner5.a9049640ce396cab16b9.jpg",
+    "static/media/66.jpg": "/clothes/static/media/66.a898a1855ea9754b95e8.jpg",
+    "static/media/1.jpg": "/clothes/static/media/1.a510145c40536b213c24.jpg",
+    "static/media/5.jpg": "/clothes/static/media/5.50c6009345fbb5e9dfda.jpg",
+    "static/media/banner3.jpg": "/clothes/static/media/banner3.3a5c9af0b7b051148225.jpg",
+    "static/media/44.jpg": "/clothes/static/media/44.f50b752e4a8f8d17e825.jpg",
+    "static/media/11.jpg": "/clothes/static/media/11.e8e914e9fb5eb3bf59bb.jpg",
+    "static/media/3.jpg": "/clothes/static/media/3.23d6203d192c5fbfbfea.jpg",
+    "static/media/banner44.jpg": "/clothes/static/media/banner44.d6a6ea84869c4a7522c1.jpg",
+    "static/media/2.jpg": "/clothes/static/media/2.2ca538184f7657ecc6a4.jpg",
+    "static/media/33.jpg": "/clothes/static/media/33.24c9b1f3a96fdd2aafb6.jpg",
+    "static/media/4.jpg": "/clothes/static/media/4.4b304bae9d9bf1f1b2d6.jpg",
+    "static/media/55.jpg": "/clothes/static/media/55.b91b9d4edda95f96a937.jpg",
+    "static/media/banner55.jpg": "/clothes/static/media/banner55.9e128336fe78c60bb8c8.jpg",
+    "static/media/6.jpg": "/clothes/static/media/6.b8978906b2e7c11294e9.jpg",
+    "index.html": "/clothes/index.html",
+    "main.2ecc8378.css.map": "/clothes/static/css/main.2ecc8378.css.map",
+    "main.22869d6f.js.map": "/clothes/static/js/main.22869d6f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ecc8378.css",
+    "static/js/main.22869d6f.js"
+  ]
+}
