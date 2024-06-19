@@ -26,14 +26,17 @@ export default function Router() {
     <Context.Provider value={{ gender, toggle }}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path="/clothes" element={<Layout />}>
             <Route index element={<Main />} />
-            <Route path="category/:gender/:type" element={<Category />} />
             <Route
-              path="category/:gender/:type/card/:number"
+              path="/clothes/category/:gender/:type"
+              element={<Category />}
+            />
+            <Route
+              path="/clothes/category/:gender/:type/card/:number"
               element={<ProductCard />}
             />
-            <Route path="basket" element={<Basket />} />
+            <Route path="/clothes/basket" element={<Basket />} />
 
             <Route
               path="*"

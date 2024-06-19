@@ -49,7 +49,7 @@ export default function Goods(props) {
         >
           {arr.map((item) => (
             <a
-              href={`/category/${props.gender}/${props.product}/card/${item.number}`}
+              href={`/clothes/category/${props.gender}/${props.product}/card/${item.number}`}
               key={item.number}
             >
               <img

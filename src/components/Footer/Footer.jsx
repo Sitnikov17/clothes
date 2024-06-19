@@ -14,7 +14,7 @@ export default function Footer() {
         </div>
         <div className="footer">
           <h2>Навигация</h2>
-          <a href="/">Главная</a>
+          <a href="/clothes">Главная</a>
           <a href="/footer">Подарки</a>
           <a href="/footer">Зима</a>
           <a href="/footer">Весна</a>

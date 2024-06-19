@@ -12,7 +12,6 @@ import Goods from "./components/Goods/Goods";
 
 function Main() {
   const context = useContext(Context);
-  console.log(context);
 
   return (
     <>

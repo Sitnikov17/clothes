@@ -16,6 +16,8 @@ export default function Category() {
 
   const context = useContext(Context);
 
+  console.log(params);
+
   return (
     <>
       <section className="sectionContainer">
@@ -25,7 +27,14 @@ export default function Category() {
           {arr.map((item) => (
             <a
               key={item.number}
-              href={params.type + "/card/" + item.number}
+              href={
+                "/clothes/category/" +
+                context.gender +
+                "/" +
+                params.type +
+                "/card/" +
+                item.number
+              }
               className="categoryLink"
             >
               <img

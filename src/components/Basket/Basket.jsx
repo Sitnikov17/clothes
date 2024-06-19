@@ -53,7 +53,7 @@ export default function Basket() {
           <h1>Корзина пуста</h1>
           <div className="basket">
             <p>В корзину еще ничего не добавлено</p>
-            <a href="/">
+            <a href="/clothes">
               <button>НАЧАТЬ ПОКУПКИ</button>
             </a>
           </div>

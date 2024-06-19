@@ -8,7 +8,7 @@ export default function Banner(props) {
 
   return (
     <>
-      <a href={"category/" + gender + "/" + props.product}>
+      <a href={"/clothes/category/" + gender + "/" + props.product}>
         <div
           className="banner"
           style={{
