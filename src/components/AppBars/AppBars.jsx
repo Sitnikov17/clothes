@@ -26,8 +26,8 @@ export default function AppBars() {
 
   return (
     <>
-      {location.pathname !== "/" || <AppBarsMain />}
-      {location.pathname === "/" || <AppBarsMini />}
+      {location.pathname === "/clothes" && <AppBarsMain />}
+      {location.pathname !== "/clothes" && <AppBarsMini />}
     </>
   );
 }
