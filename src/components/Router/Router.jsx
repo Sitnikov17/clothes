@@ -24,19 +24,19 @@ export default function Router() {
 
   return (
     <Context.Provider value={{ gender, toggle }}>
-      <HashRouter>
+      <BrowserRouter basename="/clothes">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Main />} />
-            <Route path="category/:gender/:type" element={<Category />} />
+            <Route path="/category/:gender/:type" element={<Category />} />
             <Route
-              path="category/:gender/:type/card/:number"
+              path="/category/:gender/:type/card/:number"
               element={<ProductCard />}
             />
-            <Route path="basket" element={<Basket />} />
+            <Route path="/basket" element={<Basket />} />
 
             <Route
-              path="*"
+              path="/*"
               element={
                 <p
                   style={{
@@ -53,7 +53,7 @@ export default function Router() {
             />
           </Route>
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </Context.Provider>
   );
 }

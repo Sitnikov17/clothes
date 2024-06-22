@@ -105,13 +105,13 @@ function AppBarsMain() {
                 transform: "translate(-320%, 0%)",
               }}
             >
-              <a href="/" style={{ color: color }}>
+              <a href="/clothes/" style={{ color: color }}>
                 Сlothes
               </a>
             </Button>
 
             <Button sx={{ ml: "auto" }}>
-              <a href="basket" style={{ color: color, margin: "0" }}>
+              <a href="/clothes/basket" style={{ color: color, margin: "0" }}>
                 Корзина
               </a>
             </Button>
@@ -149,11 +149,11 @@ function AppBarsMini() {
                 transform: "translate(-225%, 0%)",
               }}
             >
-              <a href="/">Сlothes</a>
+              <a href="/clothes">Сlothes</a>
             </Button>
 
             <Button sx={{ ml: "auto" }}>
-              <a href="/basket">Корзина</a>
+              <a href="/clothes/basket">Корзина</a>
             </Button>
           </Toolbar>
         </AppBar>
@@ -220,7 +220,9 @@ function TemporaryDrawer(props) {
             {arr.map((item, index) => (
               <ListItem key={item.name} disablePadding>
                 <a
-                  href={"/category/" + props.gender + "/" + item.category}
+                  href={
+                    "/clothes/category/" + props.gender + "/" + item.category
+                  }
                   key={index}
                   className=""
                 >

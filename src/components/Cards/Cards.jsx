@@ -17,7 +17,10 @@ export default function Cards(props) {
     <>
       <div className="cards">
         {arr.map((item, index) => (
-          <a key={index} href={"category/" + gender + "/" + item.category}>
+          <a
+            key={index}
+            href={"/clothes/category/" + gender + "/" + item.category}
+          >
             <img
               src={require("../../img/" + item.way)}
               className="card"
