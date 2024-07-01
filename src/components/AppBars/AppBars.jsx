@@ -73,7 +73,12 @@ function AppBarsMain() {
               data={color}
               gender={gender}
               onChange={onChange}
-              sx={{ boxShadow: "none", color: color }}
+              sx={{
+                boxShadow: "none",
+                color: color,
+                position: "absolute",
+                right: "2%",
+              }}
             />
             <div className="appBarsDecrease">
               <Button
@@ -99,10 +104,9 @@ function AppBarsMain() {
             </div>
 
             <Button
-              className="clothes"
               style={{
+                position: "absolute",
                 left: "45%",
-                transform: "translate(-320%, 0%)",
               }}
             >
               <a href="/clothes/" style={{ color: color }}>
@@ -110,7 +114,7 @@ function AppBarsMain() {
               </a>
             </Button>
 
-            <Button sx={{ ml: "auto" }}>
+            <Button sx={{ position: "absolute", right: "2%" }}>
               <a href="/clothes/basket" style={{ color: color, margin: "0" }}>
                 Корзина
               </a>
@@ -145,14 +149,14 @@ function AppBarsMini() {
 
             <Button
               sx={{
-                left: "55%",
-                transform: "translate(-225%, 0%)",
+                position: "absolute",
+                left: "45%",
               }}
             >
               <a href="/clothes">Сlothes</a>
             </Button>
 
-            <Button sx={{ ml: "auto" }}>
+            <Button sx={{ position: "absolute", right: "2%" }}>
               <a href="/clothes/basket">Корзина</a>
             </Button>
           </Toolbar>

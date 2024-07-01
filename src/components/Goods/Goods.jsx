@@ -10,9 +10,13 @@ export default function Goods(props) {
   let size = useRef(0);
 
   useEffect(() => {
+    document.querySelector("body").style.overflowX = "visible";
+    document.querySelector("html").style.overflowX = "visible";
     if (document.documentElement.scrollWidth > size.current) {
       size.current = document.documentElement.scrollWidth;
     }
+    document.querySelector("body").style.overflowX = "hidden";
+    document.querySelector("html").style.overflowX = "hidden";
   });
 
   let arr = props.data.filter((item) => {

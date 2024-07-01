@@ -2,7 +2,6 @@ import "./Cards.css";
 
 import { useContext } from "react";
 import { Context } from "../Router/Router";
-// import { useState, useContext, useEffect, useRef } from "react";
 
 export default function Cards(props) {
   let arr = props.img.filter((item) => {
@@ -10,8 +9,6 @@ export default function Cards(props) {
   });
 
   const gender = useContext(Context).gender;
-
-  console.log(arr);
 
   return (
     <>
