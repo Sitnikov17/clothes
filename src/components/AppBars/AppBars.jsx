@@ -20,6 +20,7 @@ import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 import CloseIcon from "@mui/icons-material/Close";
 import { useLocation } from "react-router-dom";
+import zIndex from "@mui/material/styles/zIndex";
 
 export default function AppBars() {
   let location = useLocation();
@@ -104,9 +105,9 @@ function AppBarsMain() {
             <Button
               style={{
                 position: "absolute",
-                left: "0",
+                left: "45%",
                 top: "0",
-                right: "0",
+                right: "45%",
                 bottom: "0",
                 display: "flex",
                 justifyContent: "center",
@@ -154,18 +155,14 @@ function AppBarsMini() {
               data="inherit"
               gender={gender}
               onChange={onChange}
-              sx={{
-                position: "absolute",
-                right: "2%",
-              }}
             />
 
             <Button
               style={{
                 position: "absolute",
-                left: "0",
+                left: "30%",
                 top: "0",
-                right: "0",
+                right: "30%",
                 bottom: "0",
                 display: "flex",
                 justifyContent: "center",
