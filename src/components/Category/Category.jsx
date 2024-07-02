@@ -10,6 +10,8 @@ import { Context } from "../Router/Router";
 export default function Category() {
   let params = useParams();
 
+  const isMobile = window.screen.width > 600;
+
   let arr = products.filter((item) => {
     return item.category === params.type && item.gender === params.gender;
   });
@@ -19,7 +21,7 @@ export default function Category() {
   return (
     <>
       <section className="sectionContainer">
-        <Cards img={imgCategory} gender={context.gender} />
+        {/* <Cards img={imgCategory} gender={context.gender} /> */}
         <h2>{params.type}</h2>
         <div className="category">
           {arr.map((item) => (

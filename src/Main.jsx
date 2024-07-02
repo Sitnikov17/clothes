@@ -42,7 +42,7 @@ function Main() {
         backgroundImage={
           context.gender === "men" ? "banner3.jpg" : "banner33.jpg"
         }
-        padding="200px"
+        padding="160px"
         background="orange"
         gender={context.gender}
         product={"tShirts"}

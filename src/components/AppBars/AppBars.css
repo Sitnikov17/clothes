@@ -49,8 +49,8 @@
   .appBarsDecrease {
     display: none;
   }
-  .clothes a {
+  /* .clothes a {
     left: 0;
     transform: translate(250%, 0%);
-  }
+  } */
 }

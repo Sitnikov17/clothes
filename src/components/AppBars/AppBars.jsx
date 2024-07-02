@@ -76,8 +76,6 @@ function AppBarsMain() {
               sx={{
                 boxShadow: "none",
                 color: color,
-                position: "absolute",
-                right: "2%",
               }}
             />
             <div className="appBarsDecrease">
@@ -106,11 +104,22 @@ function AppBarsMain() {
             <Button
               style={{
                 position: "absolute",
-                left: "45%",
+                left: "0",
+                top: "0",
+                right: "0",
+                bottom: "0",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
               }}
             >
-              <a href="/clothes/" style={{ color: color }}>
-                Сlothes
+              <a href="/clothes" style={{ color: color }}>
+                <span
+                  style={{ color: "red", fontSize: "18px", fontWeight: "700" }}
+                >
+                  С
+                </span>
+                lothes
               </a>
             </Button>
 
@@ -145,15 +154,32 @@ function AppBarsMini() {
               data="inherit"
               gender={gender}
               onChange={onChange}
+              sx={{
+                position: "absolute",
+                right: "2%",
+              }}
             />
 
             <Button
-              sx={{
+              style={{
                 position: "absolute",
-                left: "45%",
+                left: "0",
+                top: "0",
+                right: "0",
+                bottom: "0",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
               }}
             >
-              <a href="/clothes">Сlothes</a>
+              <a href="/clothes">
+                <span
+                  style={{ color: "red", fontSize: "18px", fontWeight: "700" }}
+                >
+                  С
+                </span>
+                lothes
+              </a>
             </Button>
 
             <Button sx={{ position: "absolute", right: "2%" }}>

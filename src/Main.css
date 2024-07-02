@@ -10,11 +10,17 @@
 }
 
 .image p {
-  position: absolute;
   color: white;
   font-size: 5vh;
-  left: 30%;
-  top: 45%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   text-shadow:
     -1px -1px 0 #000,
     0 -1px 0 #000,

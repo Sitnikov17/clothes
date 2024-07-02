@@ -14,6 +14,10 @@
   margin-top: 50px;
 }
 
+.basket a {
+  margin: auto;
+}
+
 .basket p {
   padding: 0;
 }
@@ -120,5 +124,8 @@ button {
   }
   .sectionBasket h1:first-child {
     margin-bottom: 0;
+  }
+  .basket button {
+    margin: auto;
   }
 }

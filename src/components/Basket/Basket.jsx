@@ -10,6 +10,7 @@ import products from "../../products";
 
 import { useContext, useState } from "react";
 import { Context } from "../Router/Router";
+import { Margin } from "@mui/icons-material";
 
 let arrProducts = [
   "hits",
@@ -54,7 +55,9 @@ export default function Basket() {
           <div className="basket">
             <p>В корзину еще ничего не добавлено</p>
             <a href="/clothes">
-              <button>НАЧАТЬ ПОКУПКИ</button>
+              <button style={{ textAlign: "center" }}>
+                <p style={{ margin: "0" }}>НАЧАТЬ ПОКУПКИ</p>
+              </button>
             </a>
           </div>
 
