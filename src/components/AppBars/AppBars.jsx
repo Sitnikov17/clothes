@@ -28,8 +28,6 @@ export default function AppBars() {
     <>
       {location.pathname === "/clothes" && <AppBarsMain />}
       {location.pathname !== "/clothes" && <AppBarsMini />}
-      {location.pathname === "/clothes" && <AppBarsMain />}
-      {location.pathname !== "/clothes" && <AppBarsMini />}
     </>
   );
 }
@@ -115,13 +113,13 @@ function AppBarsMain() {
                 alignItems: "center",
               }}
             >
-              <a href="/" style={{ color: color }}>
+              <a href="/clothes" style={{ color: color }}>
                 Сlothes
               </a>
             </Button>
 
             <Button sx={{ ml: "auto" }}>
-              <a href="basket" style={{ color: color, margin: "0" }}>
+              <a href="/clothes/basket" style={{ color: color, margin: "0" }}>
                 Корзина
               </a>
             </Button>
@@ -165,7 +163,7 @@ function AppBarsMini() {
                 alignItems: "center",
               }}
             >
-              <a href="/">Сlothes</a>
+              <a href="/clothes">Сlothes</a>
             </Button>
 
             <Button sx={{ ml: "auto" }}>
