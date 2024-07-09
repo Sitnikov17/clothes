@@ -13,9 +13,9 @@
   margin-right: 10px;
 }
 
-/* p:nth-child(3) {
-  color: rgb(151, 151, 151);
-} */
+.containerCard img {
+  width: 300px;
+}
 
 .carousel {
   position: relative;
@@ -25,12 +25,18 @@
   position: absolute;
   left: 1%;
   top: 35%;
-  color: white;
+  color: black;
 }
 
 .handleNext {
   position: absolute;
   right: 1%;
   top: 35%;
-  color: white;
+  color: black;
+}
+
+@media (max-width: 1020px) {
+  .containerCard img {
+    width: 250px;
+  }
 }

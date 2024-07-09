@@ -6,26 +6,26 @@ export default function Footer() {
       <footer>
         <div className="footer">
           <h2>Покупателю</h2>
-          <a href="/">Акции</a>
-          <a href="/footer">Доставка и оплата</a>
-          <a href="/footer">Помощь</a>
-          <a href="/footer">Возврат</a>
-          <a href="/footer">Часто задаваемые вопросы</a>
+          <a href="/clothes/footer">Акции</a>
+          <a href="/clothes/footer">Доставка и оплата</a>
+          <a href="/clothes/footer">Помощь</a>
+          <a href="/clothes/footer">Возврат</a>
+          <a href="/clothes/footer">Часто задаваемые вопросы</a>
         </div>
         <div className="footer">
           <h2>Навигация</h2>
           <a href="/clothes">Главная</a>
-          <a href="/footer">Подарки</a>
-          <a href="/footer">Зима</a>
-          <a href="/footer">Весна</a>
-          <a href="/footer">Лето</a>
-          <a href="/footer">Осень</a>
+          <a href="/clothes/footer">Подарки</a>
+          <a href="/clothes/footer">Зима</a>
+          <a href="/clothes/footer">Весна</a>
+          <a href="/clothes/footer">Лето</a>
+          <a href="/clothes/footer">Осень</a>
         </div>
         <div className="footer">
           <h2>Работа в Clotnes</h2>
-          <a href="/footer">Вакансии в магазинах</a>
-          <a href="/footer">Вакансии в офисе</a>
-          <a href="/footer">Заполнить анкету</a>
+          <a href="/clothes/footer">Вакансии в магазинах</a>
+          <a href="/clothes/footer">Вакансии в офисе</a>
+          <a href="/clothes/footer">Заполнить анкету</a>
         </div>
         <div className="footer description">
           <h2>CLOTHES</h2>

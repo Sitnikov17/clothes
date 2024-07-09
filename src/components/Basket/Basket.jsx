@@ -54,7 +54,9 @@ export default function Basket() {
           <div className="basket">
             <p>В корзину еще ничего не добавлено</p>
             <a href="/clothes">
-              <button>НАЧАТЬ ПОКУПКИ</button>
+              <button style={{ textAlign: "center" }}>
+                <p style={{ margin: "0" }}>НАЧАТЬ ПОКУПКИ</p>
+              </button>
             </a>
           </div>
 
@@ -153,7 +155,9 @@ export default function Basket() {
                 <h2>{sum}</h2>
               </div>
 
-              <button>ВЫБРАТЬ СПОСОБ ПОЛУЧЕНИЯ</button>
+              <button style={{ textAlign: "center" }}>
+                <p style={{ margin: "0" }}>ВЫБРАТЬ СПОСОБ ПОЛУЧЕНИЯ</p>
+              </button>
             </div>
           </div>
         </>

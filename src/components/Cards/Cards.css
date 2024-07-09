@@ -16,7 +16,7 @@ a {
 
   border: 1px solid black;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .cards {
     flex-wrap: wrap;
     justify-content: space-around;

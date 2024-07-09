@@ -1,5 +1,6 @@
 .sectionBasket h1:first-child {
   margin-left: 40px;
+  margin-top: 80px;
 }
 
 .basket {
@@ -11,6 +12,10 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+}
+
+.basket a {
+  margin: auto;
 }
 
 .basket p {
@@ -92,9 +97,9 @@ button {
   transform: translate(-55%, 0);
 }
 
-.basketActiveSum p {
+/* .basketActiveSum p {
   padding-bottom: 30px;
-}
+} */
 
 .basketActiveSum button:hover {
   background: rgb(189, 22, 22);
@@ -119,5 +124,8 @@ button {
   }
   .sectionBasket h1:first-child {
     margin-bottom: 0;
+  }
+  .basket button {
+    margin: auto;
   }
 }

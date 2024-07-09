@@ -28,6 +28,8 @@ export default function AppBars() {
     <>
       {location.pathname === "/clothes" && <AppBarsMain />}
       {location.pathname !== "/clothes" && <AppBarsMini />}
+      {location.pathname === "/clothes" && <AppBarsMain />}
+      {location.pathname !== "/clothes" && <AppBarsMini />}
     </>
   );
 }
@@ -73,7 +75,10 @@ function AppBarsMain() {
               data={color}
               gender={gender}
               onChange={onChange}
-              sx={{ boxShadow: "none", color: color }}
+              sx={{
+                boxShadow: "none",
+                color: color,
+              }}
             />
             <div className="appBarsDecrease">
               <Button
@@ -99,19 +104,24 @@ function AppBarsMain() {
             </div>
 
             <Button
-              className="clothes"
               style={{
+                position: "absolute",
                 left: "45%",
-                transform: "translate(-320%, 0%)",
+                top: "0",
+                right: "45%",
+                bottom: "0",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
               }}
             >
-              <a href="/clothes" style={{ color: color }}>
+              <a href="/" style={{ color: color }}>
                 Сlothes
               </a>
             </Button>
 
             <Button sx={{ ml: "auto" }}>
-              <a href="/clothes/basket" style={{ color: color, margin: "0" }}>
+              <a href="basket" style={{ color: color, margin: "0" }}>
                 Корзина
               </a>
             </Button>
@@ -144,16 +154,22 @@ function AppBarsMini() {
             />
 
             <Button
-              sx={{
-                left: "55%",
-                transform: "translate(-225%, 0%)",
+              style={{
+                position: "absolute",
+                left: "30%",
+                top: "0",
+                right: "30%",
+                bottom: "0",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
               }}
             >
-              <a href="/clothes">Сlothes</a>
+              <a href="/">Сlothes</a>
             </Button>
 
             <Button sx={{ ml: "auto" }}>
-              <a href="/clothes/basket">Корзина</a>
+              <a href="/basket">Корзина</a>
             </Button>
           </Toolbar>
         </AppBar>
