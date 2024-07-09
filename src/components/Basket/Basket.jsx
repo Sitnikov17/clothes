@@ -10,7 +10,6 @@ import products from "../../products";
 
 import { useContext, useState } from "react";
 import { Context } from "../Router/Router";
-import { Margin } from "@mui/icons-material";
 
 let arrProducts = [
   "hits",
@@ -156,7 +155,9 @@ export default function Basket() {
                 <h2>{sum}</h2>
               </div>
 
-              <button>ВЫБРАТЬ СПОСОБ ПОЛУЧЕНИЯ</button>
+              <button style={{ textAlign: "center" }}>
+                <p style={{ margin: "0" }}>ВЫБРАТЬ СПОСОБ ПОЛУЧЕНИЯ</p>
+              </button>
             </div>
           </div>
         </>

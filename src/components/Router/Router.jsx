@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "../../Main";
 import ProductCard from "../ProductCard/ProductCard";
 import Category from "../Category/Category";
@@ -24,19 +24,22 @@ export default function Router() {
 
   return (
     <Context.Provider value={{ gender, toggle }}>
-      <BrowserRouter basename="/clothes">
+      <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route path="/clothes" element={<Layout />}>
             <Route index element={<Main />} />
-            <Route path="/category/:gender/:type" element={<Category />} />
             <Route
-              path="/category/:gender/:type/card/:number"
+              path="/clothes/category/:gender/:type"
+              element={<Category />}
+            />
+            <Route
+              path="/clothes/category/:gender/:type/card/:number"
               element={<ProductCard />}
             />
-            <Route path="/basket" element={<Basket />} />
+            <Route path="/clothes/basket" element={<Basket />} />
 
             <Route
-              path="/*"
+              path="*"
               element={
                 <p
                   style={{

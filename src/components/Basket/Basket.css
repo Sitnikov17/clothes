@@ -97,9 +97,9 @@ button {
   transform: translate(-55%, 0);
 }
 
-.basketActiveSum p {
+/* .basketActiveSum p {
   padding-bottom: 30px;
-}
+} */
 
 .basketActiveSum button:hover {
   background: rgb(189, 22, 22);

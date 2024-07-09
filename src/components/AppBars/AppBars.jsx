@@ -20,15 +20,14 @@ import ListItem from "@mui/material/ListItem";
 import ListItemText from "@mui/material/ListItemText";
 import CloseIcon from "@mui/icons-material/Close";
 import { useLocation } from "react-router-dom";
-import zIndex from "@mui/material/styles/zIndex";
 
 export default function AppBars() {
   let location = useLocation();
 
   return (
     <>
-      {location.pathname !== "/" || <AppBarsMain />}
-      {location.pathname === "/" || <AppBarsMini />}
+      {location.pathname === "/clothes" && <AppBarsMain />}
+      {location.pathname !== "/clothes" && <AppBarsMini />}
     </>
   );
 }
